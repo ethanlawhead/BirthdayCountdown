@@ -9,11 +9,11 @@ class Clock extends Component {
                 </div> 
                 <div className="clock__hours clock__box">
                     <label className="clock__title">HRS</label>
-                   <label className="clock__amount">42</label>
+                   <label className="clock__amount">16</label>
                 </div> 
                 <div className="clock__minutes clock__box">
                     <label className="clock__title">MINS</label>
-                   <label className="clock__amount">16</label>
+                   <label className="clock__amount">42</label>
                 </div> 
                 <div className="clock__seconds clock__box">
                     <label className="clock__title">SECS</label>
