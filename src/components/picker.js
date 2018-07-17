@@ -7,7 +7,6 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 class Picker extends Component {
 
-
     constructor (props) {
         super(props);
         this.state = {
@@ -27,14 +26,14 @@ class Picker extends Component {
     render() {
         return (
             <div className="picker">
-             <DatePicker
-                selectedd ={this.state.startDate}
-                onChange={this.handleChange}
-             />
+               <DatePicker
+                    selected={this.state.startDate}
+                    onChange={this.handleChange}
+               />      
             </div>
          );
      }
 
 }
 
-export default Picker
+export default Picker;
