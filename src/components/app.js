@@ -47,7 +47,7 @@ export default class App extends Component {
 
     var timeBetween = today.getTime() - bday.getTime();
     var daysOld = Math.floor(timeBetween / (1000 * 60 * 60 * 24))
-    var age = Number((daysOld/365).toFixed());
+    var age = Number(((daysOld + 182.5)/365).toFixed());
     this.setState({ 
       age,
       active: true
@@ -73,7 +73,7 @@ export default class App extends Component {
 
     this.timer = setInterval(function() {
 
-      var now = today.getTime();
+      var now = moment().toDate().getTime();
       var distance = countDownDate - now;
 
       var days = Math.floor(distance / (1000 * 60 * 60 *24));

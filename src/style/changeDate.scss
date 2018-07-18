@@ -1,6 +1,6 @@
 .change-date {
     grid-row: 2/3;
-    grid-column: 4/5;
+    grid-column: 4/6;
     justify-self: start;
 
     font-size: 22px;
@@ -14,7 +14,7 @@
     background-color: transparent;
     border: none;
 
-    transform: rotate(-71.5deg) translate(-80px, -80px);
+    transform: rotate(-71deg) translate(0, -70px);
 
     &:focus {
         outline: none;
