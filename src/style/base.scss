@@ -7,6 +7,7 @@ $color-yellow-one: #F7D754;
 
 $font-roboto: "Roboto Condensed";
 $font-mont: "Montserrat";
+$font-indi: "Indie Flower";
 
 .grid {
     height: 100vh;
@@ -30,6 +31,20 @@ $font-mont: "Montserrat";
         font-weight: 300;
         line-height: 22px;
         padding: 55px 75px;
+    }
+
+    &__subtitle {
+        grid-row: 1/2;
+        grid-column: 1/4;
+
+        font-size: 14px;
+        color: white;
+        font-family: $font-indi;
+        font-weight: 200;
+        line-height:20px;
+        align-self: center;
+        justify-self: left;
+        padding: 5px 60px;
     }
 
     &__remaining {

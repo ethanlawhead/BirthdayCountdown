@@ -134,6 +134,7 @@ export default class App extends Component {
     return (
       <div className="grid">
         <h1 className="grid__title">Birthday Countdown</h1>
+        <h2 className="grid__subtitle">Like a Christmas countdown, but better</h2>
 
         <div className="grid__skew-dark-two"></div>
         <div className="grid__skew-dark-three"></div>
